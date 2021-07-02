@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .header{
+    display: block;
+    
+    
+    }
+    
+    .header .header-titles {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    nav{
+        flex-direction: row;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+    
+    }
+    
+    nav a{
+        color: #000;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 50px;
+    }
+    nav .nav-logo-container {
+        margin-left: 50px;
+    }
+    
+    nav .nav-logo-container img {
+         width: 30px;
+        margin-top: 10px;
+    }
+    
+    nav .nav-button {
+        padding: 10px;
+        padding-bottom: 2px;
+        margin: 6px;
+        margin-right: 50px;
+        font-weight: 150;
+        font-size: 15px;
+        background-color: #FA8C01;
+        color: #fff;
+        border-radius: 8px;
+        width: 70px;
+        height: 31px;
+        
+    }
+    
+    .logo-ppal {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        justify-content: space-around;
+    }
+    
+    .logo-ppal img {
+        display: flex;
+        width: 250px;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        justify-content: space-around;
+        align-items:space-around;
+    }
+    
+    .banner-ppal {
+        flex-direction: row;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 90px;
+        margin: 30px;
+    }
+    
+    .banner-ppal h5{
+        margin-right: 60px;
+    }
+    
+    hr{
+      margin-left: 180px;
+      height: 1px;
+      width: 80%;
+      background-color:#000;
+    }
+    
+    main {
+        display: flex;
+    }
+    .carrousel{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0px 25px;
+    }
+     .carrousel img {
+         display: flex;
+         width: 75px;
+         height: 75px;
+     }
